@@ -27,7 +27,7 @@ XGBoost was optimized through grid search, while the neural network benefited fr
 
 I also addressed practical challenges such as over-reliance on a single academic feature by creating a normalized academic success indicator. This improved the interpretability and robustness of the final model. Through feature importance analysis and iterative model tuning, I developed a deeper understanding of how to balance model performance with fairness and generalizability.
 
-# Skills and Capabilities Gained
+### Skills and Capabilities Gained
 
 From this project, I gained the ability to design, implement, and evaluate multi-phase predictive pipelines. I became comfortable tuning complex models for different stages of data availability, managing categorical encoding through embeddings, and interpreting model behavior in the context of real-world decisions. Most importantly, I learned how machine learning can be used not just for classification, but for timely, actionable insight in high-impact areas like education.
 
