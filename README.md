@@ -18,8 +18,8 @@ The stepwise design of the project helped me understand how prediction quality i
 On the technical side, I developed a complete supervised learning pipeline using two complementary modeling approaches.
 
 Models used:
-• XGBoost
-• Neural Network (Keras)
+* XGBoost
+* Neural Network (Keras)
 
 XGBoost was optimized through grid search, while the neural network benefited from Bayesian hyperparameter tuning. I applied feature embeddings to manage high-cardinality categorical features such as course name and nationality, which helped maintain performance and avoid dimensionality issues. Each model was evaluated using multiple metrics including F1-score, precision, recall, accuracy, and AUC, with AUC proving especially useful in addressing the imbalanced nature of the dataset.
 
