@@ -1,11 +1,13 @@
-# Data Science Portfolio
-## Cambridge ICE
+# Portfolio Description
 
 This repository contains a portfolio of all my work from the Cambridge ICE x FourthREV Data Science career accelerator. It is divided into five sections, one for each of the projects I have carried out. I will describe the project, the business problem, the challenges faced, and what I learned.
 
 ---
+# Projects
 
 ## 🎓 Dropout Prediction Project
+
+### Overview
 
 This project focused on identifying students at risk of dropping out at three distinct stages of their academic journey: early registration, mid-course, and late-stage performance. The objective was to support early interventions by building predictive models that could flag at-risk students based on progressively richer data. Starting with basic demographic and course information, I later introduced attendance records and academic performance metrics to evaluate how model accuracy evolved as more meaningful data became available.
 
