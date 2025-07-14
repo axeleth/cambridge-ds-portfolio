@@ -5,6 +5,29 @@ This repository contains a portfolio of all my work from the Cambridge ICE x Fou
 ---
 # Projects
 
+## 🚢 Anomaly Detection in Ship Engine Data
+
+### Project Overview
+
+This project explored how anomalies in ship engine performance metrics can be detected using both statistical and machine learning methods. The goal was to identify early indicators of mechanical issues that may require maintenance. I began with exploratory data analysis to understand the distributions and then applied univariate and multivariate anomaly detection techniques.
+
+### Technical Implementation
+
+After preprocessing and scaling the data, I used dimensionality reduction with PCA to visualize patterns and improve model performance.
+
+Models used:
+	* IQR Method
+	* One-class SVM
+	*	Isolation Forest
+
+The IQR method was useful for simple, feature-specific outliers. One-class SVM and Isolation Forest enabled multivariate detection, capturing more complex anomalies. Isolation Forest proved especially effective due to its scalability and interpretability.
+
+### Skills and Capabilities Gained
+
+This project gave me practical experience in unsupervised learning, outlier detection, and dimensionality reduction. I learned to select models based on data complexity and to fine-tune hyperparameters for better control over anomaly thresholds.
+
+**Key Learnings:** Anomaly detection, Unsupervised modeling, One-class SVM, Isolation Forest, PCA, Z-score scaling, Feature-based, multivariate outlier detection
+
 ## 🎓 Dropout Prediction Project
 
 ### Overview
