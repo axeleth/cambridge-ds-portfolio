@@ -66,7 +66,7 @@ This project taught me how to create meaningful features from transactional data
 
 ---
 
-## 🎓 Dropout Prediction Project
+## 🎓 Student Dropout Prediction with Supervised Learning
 
 ### Overview
 
