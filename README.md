@@ -128,3 +128,33 @@ This project strengthened my ability to preprocess large text datasets, apply an
 ### View Project
 [📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_4and5_Topic_project.pdf){:target="_blank"}  
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_4and5_Topic_project.ipynb){:target="_blank"}
+
+---
+
+## 📚 Book Sales Forecasting with Time Series Models
+
+### Project Overview
+
+This project focused on forecasting book sales using weekly and monthly historical sales data from Nielsen BookScan. The objective was to support independent publishers in making informed stock and reprint decisions by modeling both short-term trends and long-term seasonal demand. I applied and compared two modeling approaches: a statistical time series model and a supervised machine learning model.
+
+### Technical Implementation
+
+The dataset included weekly sales data for 500 books, with two titles selected for focused analysis: The Very Hungry Caterpillar and The Alchemist. After preprocessing and filling missing weeks, I performed trend and seasonality decomposition, autocorrelation analysis, and stationarity testing to guide model choice and tuning.
+
+Models used:
+*	Auto ARIMA
+*	XGBoost with lagged features
+
+Auto ARIMA effectively captured seasonal sales spikes, especially year-end surges, in both weekly and monthly data. XGBoost, using a tuned lag window and cross-validation, performed better on the weekly data by modeling finer short-term fluctuations, but it struggled with seasonal peaks in monthly forecasts.
+
+### Skills and Capabilities Gained
+
+This project helped me understand how different modeling techniques perform across time resolutions. I learned how to prepare time series data for both statistical and machine learning methods, tune lag-based models, apply cross-validation strategies for temporal data, and evaluate forecast accuracy with MAE and MAPE.
+
+**Key Learnings:** Time series forecasting, Auto ARIMA modeling, Lag-based machine learning, STL decomposition, ACF and PACF interpretation, Stationarity testing, Expanding window cross-validation, Sales demand modeling
+
+### View Project
+[📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.pdf){:target="_blank"}  
+[💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.ipynb){:target="_blank"}
+
+
