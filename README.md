@@ -1,6 +1,8 @@
 # Portfolio Description
 
-This repository contains a portfolio of all my work from the Cambridge ICE x FourthREV Data Science career accelerator. It is divided into five sections, one for each of the projects I have carried out. I will describe the project, the business problem, the challenges faced, and what I learned.
+This repository contains a portfolio of my work from the Cambridge ICE x FourthRev Data Science Career Accelerator. I took on this course to bridge my academic foundations with applied, industry-relevant skills, combining technical training with practical business problem-solving. Over the course of several months, I developed end-to-end solutions to real-world challenges using supervised learning, unsupervised clustering, natural language processing, anomaly detection, and time series forecasting.
+
+This portfolio presents the core projects completed during the programme. Each section outlines the business context, analytical approach, and key learnings. The goal is to demonstrate not only technical proficiency, but also the ability to extract insights, make data-driven decisions, and communicate findings effectively.
 
 ---
 # Projects
