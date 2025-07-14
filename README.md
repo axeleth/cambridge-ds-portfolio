@@ -33,6 +33,35 @@ This project gave me practical experience in unsupervised learning, outlier dete
 
 ---
 
+## 🛍️ Customer Segmentation with K-means Clustering
+
+### Project Overview
+
+This project focused on segmenting customers into meaningful groups using clustering techniques, with the goal of identifying high-value customer profiles and informing business strategy. I engineered new features from raw purchase data to capture behavioral patterns like frequency, recency, and estimated lifetime value. These enriched features allowed for more interpretable and actionable segmentation.
+
+### Technical Implementation
+
+After preprocessing and aggregating the dataset by customer, I engineered five key features and standardized the data to prepare it for clustering. Dimensionality reduction was used to visualize the cluster structures and support interpretation.
+
+Models and methods used:
+*	K-means clustering
+*	Hierarchical clustering
+*	PCA and t-SNE for dimensionality reduction
+*	Feature engineering (Age, Recency, Frequency, Unit Cost, CLV)
+
+The optimal number of clusters was selected using both the elbow method and silhouette score, with four clusters offering the best balance of separation and interpretability. t-SNE provided clearer visual distinction of clusters than PCA, especially for non-linear relationships.
+
+### Skills and Capabilities Gained
+
+This project taught me how to create meaningful features from transactional data, tune clustering models for business insights, and visualize high-dimensional data effectively. I also practiced evaluating cluster structures and using segmentation to guide data-driven recommendations.
+
+**Key Learnings:** Customer segmentation, K-means clustering, Dimensionality reduction, Feature engineering, Cluster evaluation
+
+[📄 View Report (PDF)](reports/Course_1/Ehrnrooth_Axel_CAM_C101_W6_Mini-project.pdf){:target="_blank"}  
+[💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_1/Ehrnrooth_Axel_CAM_C101_Week_6_Mini-project.ipynb){:target="_blank"}
+
+---
+
 ## 🎓 Dropout Prediction Project
 
 ### Overview
