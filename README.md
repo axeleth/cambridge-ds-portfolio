@@ -31,6 +31,8 @@ This project gave me practical experience in unsupervised learning, outlier dete
 [📄 View Report (PDF)](reports/Course_1/Ehrnrooth_Axel_CAM_C101_W5_Mini-project.pdf){:target="_blank"}  
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_1/Ehrnrooth_Axel_CAM_C101_W5_Mini-project.ipynb){:target="_blank"}
 
+---
+
 ## 🎓 Dropout Prediction Project
 
 ### Overview
