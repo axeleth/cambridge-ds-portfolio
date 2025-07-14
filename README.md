@@ -28,6 +28,7 @@ This project gave me practical experience in unsupervised learning, outlier dete
 
 **Key Learnings:** Anomaly detection, Unsupervised modeling, One-class SVM, Isolation Forest, PCA, Z-score scaling, Feature-based, multivariate outlier detection
 
+### View Project
 [📄 View Report (PDF)](reports/Course_1/Ehrnrooth_Axel_CAM_C101_W5_Mini-project.pdf){:target="_blank"}  
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_1/Ehrnrooth_Axel_CAM_C101_W5_Mini-project.ipynb){:target="_blank"}
 
@@ -57,6 +58,7 @@ This project taught me how to create meaningful features from transactional data
 
 **Key Learnings:** Customer segmentation, K-means clustering, Dimensionality reduction, Feature engineering, Cluster evaluation
 
+### View Project
 [📄 View Report (PDF)](reports/Course_1/Ehrnrooth_Axel_CAM_C101_W6_Mini-project.pdf){:target="_blank"}  
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_1/Ehrnrooth_Axel_CAM_C101_Week_6_Mini-project.ipynb){:target="_blank"}
 
@@ -97,3 +99,32 @@ From this project, I gained the ability to design, implement, and evaluate multi
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_2/Ehrnrooth_Axel_CAM_C201_Week_6_Mini-project.ipynb){:target="_blank"}
 
 ---
+
+## 💬 NLP Analysis of PureGym Customer Reviews
+
+### Project Overview
+
+In this project, I analyzed customer reviews from PureGym to identify key themes, emotional drivers, and service-related pain points. The goal was to uncover recurring complaints and generate actionable insights that could help improve the member experience across gym locations. Reviews were sourced from Google and Trustpilot, with the analysis focused on low-rated reviews to understand the root causes of dissatisfaction.
+
+### Technical Implementation
+
+The workflow combined traditional NLP tools with advanced transformer-based models and large language models. After preprocessing the reviews (including tokenization, stopword removal, and lowercasing), I used topic modeling and emotion classification to explore both what customers were saying and how they felt.
+
+Techniques used:
+*	BERTopic for transformer-based topic modeling
+*	Gensim LDA for probabilistic topic discovery
+*	Emotion classification using bert-base-uncased-emotion
+*	Prompt-based topic extraction and suggestion generation using Falcon-7B-Instruct
+*	PCA and t-SNE for topic visualization
+
+BERTopic revealed consistent issues around broken equipment, cleanliness, rude staff, payment problems, and overcrowded facilities. Emotion analysis showed anger as the dominant sentiment in negative reviews, particularly where customer service was involved. Running BERTopic on Falcon-generated summaries allowed deeper insight into root causes and produced focused suggestions for improvement.
+
+### Skills and Capabilities Gained
+
+This project strengthened my ability to preprocess large text datasets, apply and compare multiple NLP models, and interpret unstructured customer feedback at scale. I learned to use emotion classifiers and language models to go beyond surface-level complaints and support data-driven recommendations for customer experience improvement.
+
+**Key Learnings:** Natural language processing, Topic modeling (BERTopic, LDA), Emotion analysis with BERT, Prompt engineering with LLMs, Text cleaning and preprocessing, Customer insight extraction
+
+### View Project
+[📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_4and5_Topic_project.pdf){:target="_blank"}  
+[💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_4and5_Topic_project.ipynb){:target="_blank"}
