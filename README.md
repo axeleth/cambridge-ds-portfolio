@@ -205,6 +205,6 @@ This project deepened my understanding of applied NLP and strengthened my abilit
 * Semantic search and document chunking
 * Collaborative leadership in applied data science
 
-[📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.pdf){:target="_blank"}  
-[💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.ipynb){:target="_blank"}
+[📄 View Report (PDF)](reports/Bank_of_England_Project/STOMPA_CAM_EP_Assignment3_report.pdf){:target="_blank"}  
+[💻 View Code in Google Drive]([https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.ipynb](https://colab.research.google.com/drive/1HF6FiC_HcfOiSa7C8VaR6xbk9dkLPhYB?usp=sharing)){:target="_blank"}
 
