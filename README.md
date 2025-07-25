@@ -159,4 +159,52 @@ This project helped me understand how different modeling techniques perform acro
 [📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.pdf){:target="_blank"}  
 [💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.ipynb){:target="_blank"}
 
+---
+
+# 🏦 NLP of G-SIB Earnings Calls for the Bank of England
+
+### Project Overview
+
+This capstone project represented the final stage of the Cambridge Data Science Career Accelerator and was conducted in collaboration with the Bank of England’s Prudential Regulation Authority. It provided our team with a unique opportunity to act as independent data scientists and design our own solution to a real-world regulatory challenge. We were asked to determine whether unstructured data from quarterly earnings call transcripts of global systemically important banks could be used to identify early indicators of financial risk, strategic shifts, or emerging market concerns.
+
+The problem required us to combine creativity, domain understanding, and technical skill. Rather than working from a fixed brief, we had full responsibility for designing and delivering a solution that could support supervisory judgment in a high-stakes regulatory context.
+
+### Technical Implementation
+
+We built a modular natural language processing pipeline that could process, analyze, and interpret long-form transcripts. The pipeline integrated several analytical components that each addressed a different aspect of the broader risk-monitoring task.
+
+Techniques and models used:
+* FinBERT for risk-based sentiment classification
+* DeBERTa-v3 for aspect-based sentiment analysis
+* BERTopic and GPT-4.1 for topic modeling and summarisation
+* Gemini Flash for question avoidance detection
+* LangChain and a vector database for retrieval-augmented generation
+
+Our analysis included transcripts from Citibank, JPMorgan, and UBS, spanning over a decade. We also used Silicon Valley Bank as a benchmark for identifying risk-related language in failed institutions. To forecast risk levels over time, we developed a hybrid time series model that combined SARIMA with XGBoost and applied it to trends in high-risk sentiment.
+
+The analysis consistently surfaced major concerns including exposure to commercial real estate, net interest margin pressure, capital adequacy, and cybersecurity. Sentiment toward loan book quality was more often negative than positive. UBS and JPMorgan emerged as banks showing either elevated or volatile high-risk language across recent quarters.
+
+### My Role
+
+As team lead, I focused on coordinating planning, facilitating discussion, and supporting team-wide communication. I helped align each technical component with the project’s core objectives and ensured that all team members contributed meaningfully across the different modules. I also contributed directly to refining the structure of our analytical pipeline, helping maintain a clear and consistent vision for the project from beginning to end.
+
+Taking on this role pushed me to grow as both a communicator and a decision-maker. I learned to balance individual initiative with group input and to keep our momentum going even when the project became technically complex.
+
+### Skills and Capabilities Gained
+
+This project deepened my understanding of applied NLP and strengthened my ability to manage multi-part analytical workflows. I became more confident in tuning and deploying large language models, interpreting financial sentiment, and building tools that transform technical insight into decision-making support. Leading a team in this context gave me valuable experience in shaping project structure, resolving roadblocks, and presenting work to a professional audience.
+
+### Key Learnings
+
+* Natural language processing for financial supervision
+* Sentiment classification and aspect modeling
+* Topic extraction using BERTopic and LLMs
+* Question avoidance detection with large language models
+* Time series forecasting with SARIMA and XGBoost
+* Retrieval-augmented generation using LangChain
+* Semantic search and document chunking
+* Collaborative leadership in applied data science
+
+[📄 View Report (PDF)](reports/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.pdf){:target="_blank"}  
+[💻 View Code on GitHub](https://github.com/axeleth/cambridge-ds-portfolio/tree/main/code/Course_3/Ehrnrooth_Axel_CAM_C301_Week_9&10_Topic_project.ipynb){:target="_blank"}
 
